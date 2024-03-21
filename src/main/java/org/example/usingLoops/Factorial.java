@@ -26,7 +26,9 @@ public class Factorial {
     public static double value(double n) {
 
         double num = 1;
-
+        if(n==0){
+            return 1;
+        }
         for(double i=n;i>=1;i--){
             num = num*i;
 
